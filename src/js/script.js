@@ -38,7 +38,6 @@ function testCase(a) {
         case 8:
             x = "Восемь";
             break;
-
         case 9:
             x = "Девять";
             break;
