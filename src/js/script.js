@@ -1,45 +1,44 @@
 function testSwitchJS(a) {
               let x;
               x = "";                //объявляем переменную в которую будем записывать результат
-
     switch (a) {
-        case 0:
+        case 10:
             x = "Ноль";
             break;
 
-        case 1:          // если a равна единице то записываем
-            x = "Один";  // в переменную x фразу "Один"
+        case 13:          // если a равна единице то записываем
+            x = "13";  // в переменную x фразу "Один"
             break;
 
-        case 2:
-            x = "Два";
+        case 21:
+            x = "21";
             break;
 
-        case 3:
-            x = "Три";
+        case 33:
+            x = "33";
             break;
 
-        case 4:
-            x = "Четыре";
+        case 43:
+            x = "43";
             break;
 
-        case 5:
-            x = "Пять";
+        case 53:
+            x = "53";
             break;
 
-        case 6:
-            x = "Шесть";
+        case 63:
+            x = "63";
             break;
 
-        case 7:
-            x = "Семь";
+        case 73:
+            x = "73";
             break;
 
-        case 8:
-            x = "Восемь";
+        case 38:
+            x = "38";
             break;
-        case 9:
-            x = "Девять";
+        case 91:
+            x = "91";
             break;
     }
 
