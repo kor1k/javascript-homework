@@ -106,3 +106,28 @@ function testSwitchJS(a) {
 
     return x;
 }
+
+
+function userLegitCheck() {
+    let userName = prompt('What is your name? ');
+    console.log('name: ' + userName);
+    let userAge = +prompt('How old are you? ');
+    console.log('age: ' + userAge);
+
+    if (userAge = 18, userAge <= 22) {
+        prompt('Are u sure?');
+        if (prompt('Are u sure?') == true) {
+            alert('Welcome, ' + userName)
+        } else {
+            alert('You are not allowed to visit this website')
+        }
+    }
+    if (userAge => 23) {
+        alert('Welcome, ' + userName);
+    }
+    if (userAge < 18) {
+        alert('You are not allowed to visit this website')
+    }
+}
+
+userLegitCheck();
