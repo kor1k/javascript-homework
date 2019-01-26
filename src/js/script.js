@@ -132,15 +132,26 @@
 //
 // userLegitCheck();
 
-function ageCheck() {
-    let userName = prompt('what is your name?');
-    let userAge = +prompt('how old are you?');
-    if (isNaN(userAge)) alert('Age must contain just numbers!');
-    let wrongAnswer = 'You are not allowed to visit this website';
-    let trueAnswer = 'Welcome';
-
-    console.log('name: ' + userName);
-    console.log('age: ' + userAge);
-}
-
-ageCheck();
+// function ageCheck() {
+//     let userName = prompt('what is your name?');
+//     let userAge = +prompt('how old are you?');
+//     let wrongAnswer = 'You are not allowed to visit this website';
+//     let trueAnswer = 'Welcome';
+//
+//     if (isNaN(userAge)) alert('Age must contain just numbers!');
+//     if (userAge < 18) {
+//         alert(wrongAnswer);
+//     } else if (alert('Are you sure you want to continue?')) {
+//     }
+//     alert('welcome ' + userName);
+//
+//     if (userAge => 21) {
+//         alert('Welcome, ' + userName)
+//     }
+//
+//
+//     console.log('name: ' + userName);
+//     console.log('age: ' + userAge);
+// }
+//
+// ageCheck();
