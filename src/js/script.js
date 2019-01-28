@@ -138,20 +138,38 @@ function ageCheck() {
 
     if (userAge < 18) {
         alert('U cant visit this site');
+    } else if (alert('Are u sure?')) {
     }
 
-    if (userAge => 18 && userAge < 21) {
-        confirm('Are u sure?')
+    if (userAge = 18) {
+        alert('18 let')
     }
-    if (confirm = true) {
-        alert('welcome: ' + userName)
-    } else {
-        alert('Bye bye kiddie')
+    
+    if (userAge = 19) {
+        alert('19 let')
     }
 
-    if (userAge > 21) {
-        alert('Welcome ' + userName)
+    if (userAge = 20) {
+        alert('20 let')
     }
+    if (userAge = 21) {
+        alert('21 let')
+    }
+
+
+    //
+    // if (userAge => 18 && userAge < 21) {
+    //     confirm('Are u sure?')
+    // }
+    // if (confirm = true) {
+    //     alert('welcome: ' + userName)
+    // } else {
+    //     alert('Bye bye kiddie')
+    // }
+    //
+    // if (userAge > 21) {
+    //     alert('Welcome ' + userName)
+    // }
 
     console.log('name: ' + userName);
     console.log('age: ' + userAge);
