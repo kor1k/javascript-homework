@@ -178,28 +178,51 @@
 // ageCheck();
 
 
-function validAge() {
-    let urAllowed = 'Welcome, ';
-    let urNOTAllowed = 'You are not allowed to visit this website.'
-    let areUsure = 'Are you sure you want to continue?'
-    let userName = prompt('Enter your name. ');
-    console.log('name: ' + userName);
-    let userAge = prompt('Enter your age. ');
-    console.log('age: ' + userAge);
+// function validAge() {
+//     let urAllowed = 'Welcome, ';
+//     let urNOTAllowed = 'You are not allowed to visit this website.'
+//     let areUsure = 'Are you sure you want to continue?'
+//     let userName = prompt('Enter your name. ');
+//     console.log('name: ' + userName);
+//     let userAge = prompt('Enter your age. ');
+//     console.log('age: ' + userAge);
+//
+//     if (userAge === 22 && userAge < 22) {
+//         alert(urAllowed + userName)
+//     }
+//
+//     if (isNaN(userAge)) {
+//         alert('There is no numbers!')
+//     }
+//
+//     if (userAge < 18) {
+//         alert(urNOTAllowed)
+//     } else if (userAge => 18 || userAge <= 21){
+//         confirm(areUsure)
+//     }
+// }
+//
+// validAge();
 
-    if (userAge === 22 && userAge < 22) {
-        alert(urAllowed + userName)
-    }
+function ageChecker() {
+    const name = prompt('What is your name?');
+    const age = +prompt('How old are u?');
 
-    if (isNaN(userAge)) {
-        alert('There is no numbers!')
+    if (age < 18) {
+        confirm('You are not allowed to visit this website!')
     }
-
-    if (userAge < 18) {
-        alert(urNOTAllowed)
-    } else if (userAge => 18 || userAge <= 21){
-        confirm(areUsure)
+    if (age >= 18) {
+       let c = confirm('Are you sure you want to continue?');
+        if (c === true) {
+            confirm('Welcome ' + name)
+        } else {
+            confirm('You are not allowed to visit this website!')
+        }
     }
+    // if (age > 21) {
+    //     alert(name + ' welcome!')
+    // }
+    // return false;
 }
 
-validAge();
+ageChecker();
