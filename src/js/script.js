@@ -212,17 +212,16 @@ function ageChecker() {
         confirm('You are not allowed to visit this website!')
     }
     if (age >= 18) {
-       let c = confirm('Are you sure you want to continue?');
+        let c = confirm('Are you sure you want to continue?');
         if (c === true) {
             confirm('Welcome ' + name)
         } else {
             confirm('You are not allowed to visit this website!')
         }
     }
-    // if (age > 21) {
-    //     alert(name + ' welcome!')
-    // }
-    // return false;
+    if (age > 21) {
+        alert(name + ' welcome!')
+    }
 }
 
 ageChecker();
